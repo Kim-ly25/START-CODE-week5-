@@ -9,7 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f6f9;
+    background-color: #ced5e2;
     display: flex;
 
 }
@@ -67,6 +67,14 @@ body {
 .header {
     text-align: center;
     margin-bottom: 30px;
+}
+.welcome-image {
+    width: 100%;
+    max-width: 400px; /* Adjust based on your layout */
+    height: auto;
+    border-radius: 8px; /* Optional rounded corners */
+    margin: 0 auto;
+    display: block; /* Centers the image */
 }
 
 .cards {
@@ -157,4 +165,6 @@ body {
         flex-direction: column;
         gap: 10px;
     }
+
+    
 }
